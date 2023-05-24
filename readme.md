@@ -1,4 +1,4 @@
-# Cps Test  (RUS)
+# Cps Test  (Russian comments in code and here)
 *Этa программа была создана для точного измерения скорости<br/>
 клика. Обычно скорость клика измеряется в КПС <br/>
 (от англ. CPS - clicks per second). Число КПС получают путем<br/>
