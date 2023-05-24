@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>333</width>
+    <height>98</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>CPS Test</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_decor2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1360</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(60, 63, 65);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_text1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>0</y>
+      <width>341</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>48</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(70, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>CPS Test</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_decor3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>90</y>
+      <width>1360</width>
+      <height>10</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(45, 45, 90);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_test1">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>25</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+color: rgb(70, 255, 255);
+background-color: rgb(60, 63, 65);
+    border: none;
+    outline: none;
+}
+
+QPushButton:hover {
+    color: rgb(190, 190, 190) ;
+}
+QPushButton:pressed {
+    color:rgb(180, 180, 180) ;
+}</string>
+    </property>
+    <property name="text">
+     <string>Клик тест</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_test2">
+    <property name="geometry">
+     <rect>
+      <x>545</x>
+      <y>30</y>
+      <width>231</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+color: rgb(70, 255, 255);
+background-color: rgb(60, 63, 65);
+    border: none;
+    outline: none;
+}
+
+QPushButton:hover {
+    color: rgb(190, 190, 190) ;
+}
+QPushButton:pressed {
+    color:rgb(180, 180, 180) ;
+}</string>
+    </property>
+    <property name="text">
+     <string>Кпс пробела</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_count3">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>25</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+color: rgb(70, 255, 255);
+background-color: rgb(60, 63, 65);
+    border: none;
+    outline: none;
+}
+
+QPushButton:hover {
+    color: rgb(190, 190, 190) ;
+}
+QPushButton:pressed {
+    color:rgb(180, 180, 180) ;
+}</string>
+    </property>
+    <property name="text">
+     <string>Счётчик кликов</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_programm4">
+    <property name="geometry">
+     <rect>
+      <x>1105</x>
+      <y>30</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+color: rgb(70, 255, 255);
+background-color: rgb(60, 63, 65);
+    border: none;
+    outline: none;
+}
+
+QPushButton:hover {
+    color: rgb(190, 190, 190) ;
+}
+QPushButton:pressed {
+    color:rgb(180, 180, 180) ;
+}</string>
+    </property>
+    <property name="text">
+     <string>О программе</string>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>100</y>
+      <width>1360</width>
+      <height>605</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(43, 43, 43);</string>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="page_cps">
+     <property name="maximumSize">
+      <size>
+       <width>1360</width>
+       <height>768</height>
+      </size>
+     </property>
+     <widget class="QLabel" name="label_text_1page">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>70</y>
+        <width>1191</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(150, 150, 150);</string>
+      </property>
+      <property name="text">
+       <string>Каков ваш максимальный CPS? Проверьте вашу скорость клика в данном тесте.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2text_1page">
+      <property name="geometry">
+       <rect>
+        <x>28</x>
+        <y>-10</y>
+        <width>621</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>48</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(70, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Клик тест 10 секунд</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_start_1page">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>140</y>
+        <width>530</width>
+        <height>200</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>48</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgb(60, 63, 65);
+	color: rgb(70, 255, 255);
+border-radius: 15px;              
+border: 3px solid rgb(45, 45, 90)
+}
+QPushButton:hover {
+background-color: rgb(45, 45, 90);
+border: 3px solid rgb(60, 63, 65);
+}
+QPushButton:pressed {
+    background-color:  rgb(47, 47, 94);
+}</string>
+      </property>
+      <property name="text">
+       <string>Старт</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_stop_1page">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>230</y>
+        <width>530</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>48</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgb(60, 63, 65);
+	color: rgb(70, 255, 255);
+border-radius: 15px;              
+border: 3px solid rgb(216, 35, 38);
+}
+QPushButton:hover {
+background-color: rgb(216, 35, 38);
+border: 3px solid rgb(60, 63, 65);
+}
+QPushButton:pressed {
+    background-color:  rgb(226, 36, 39);
+}</string>
+      </property>
+      <property name="text">
+       <string>Сброс</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5text_1page">
+      <property name="geometry">
+       <rect>
+        <x>960</x>
+        <y>160</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(190, 190, 190);</string>
+      </property>
+      <property name="text">
+       <string>клики</string>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="lcdNumber_1page">
+      <property name="geometry">
+       <rect>
+        <x>963</x>
+        <y>130</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(60, 63, 65);
+color: rgb(70, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6text_1page">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>354</y>
+        <width>1091</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(150, 150, 150);</string>
+      </property>
+      <property name="text">
+       <string>Таймер запустится сразу как нажмете кнопку Старт, поэтому не медлите </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7text_1page">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>400</y>
+        <width>1121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(150, 150, 150);</string>
+      </property>
+      <property name="text">
+       <string>и жмите быстрее! Ваш cps будет известен сразу после окончания таймера.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_decor3_1page">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>505</y>
+        <width>1360</width>
+        <height>10</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(45, 45, 90);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_decor2_1page">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>515</y>
+        <width>1360</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(60, 63, 65);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_text8_1page">
+      <property name="geometry">
+       <rect>
+        <x>607</x>
+        <y>540</y>
+        <width>171</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:rgb(70, 255, 255);
+background-color: rgb(60, 63, 65);</string>
+      </property>
+      <property name="text">
+       <string>2022 © CPS Test</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_play_1page">
+      <property name="geometry">
+       <rect>
+        <x>1227</x>
+        <y>50</y>
+        <width>61</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+color: rgb(70, 255, 255);
+background-color: rgb(60, 63, 65); 
+border-radius: 10px;              
+
+}
+
+QPushButton:hover {
+    color: rgb(190, 190, 190) ;
+}
+QPushButton:pressed {
+    color:rgb(180, 180, 180) ;
+}</string>
+      </property>
+      <property name="text">
+       <string>play</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_stop_music_1page">
+      <property name="geometry">
+       <rect>
+        <x>1227</x>
+        <y>78</y>
+        <width>61</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+color: rgb(70, 255, 255);
+background-color: rgb(60, 63, 65); 
+border-radius: 10px;              
+
+}
+
+QPushButton:hover {
+    color: rgb(190, 190, 190) ;
+}
+QPushButton:pressed {
+    color:rgb(180, 180, 180) ;
+}</string>
+      </property>
+      <property name="text">
+       <string>stop</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_music_1page">
+      <property name="geometry">
+       <rect>
+        <x>1217</x>
+        <y>10</y>
+        <width>91</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(70, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Music</string>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="lcdNumber_time_1page">
+      <property name="geometry">
+       <rect>
+        <x>1105</x>
+        <y>185</y>
+        <width>81</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">    border: none;
+    outline: none;
+color: rgb(70, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3text_1page">
+      <property name="geometry">
+       <rect>
+        <x>865</x>
+        <y>190</y>
+        <width>281</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(190, 190, 190);</string>
+      </property>
+      <property name="text">
+       <string>Времени осталось:</string>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="lcdNumber">
+      <property name="geometry">
+       <rect>
+        <x>1160</x>
+        <y>370</y>
+        <width>101</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+color: rgb(70, 255, 255);
+background-color: rgb(43, 43, 43);</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2space">
+     <widget class="QPushButton" name="btn_start_2page">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>220</y>
+        <width>361</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>1360</width>
+        <height>768</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>48</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgb(60, 63, 65);
+	color: rgb(70, 255, 255);
+border-radius: 15px;              
+border: 3px solid rgb(45, 45, 90)
+}
+QPushButton:hover {
+background-color: rgb(45, 45, 90);
+border: 3px solid rgb(60, 63, 65);
+}
+QPushButton:pressed {
+    background-color:  rgb(47, 47, 94);
+}</string>
+      </property>
+      <property name="text">
+       <string>Старт</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3text_2page">
+      <property name="geometry">
+       <rect>
+        <x>33</x>
+        <y>65</y>
+        <width>1011</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(150, 150, 150);</string>
+      </property>
+      <property name="text">
+       <string>Узнай максимальный CPS твоего пробела. Ломать пробел здесь 👇</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_decor2_2page">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>505</y>
+        <width>1360</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(60, 63, 65);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_decor3_2page">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>505</y>
+        <width>1360</width>
+        <height>10</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(45, 45, 90);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_text8_2page">
+      <property name="geometry">
+       <rect>
+        <x>607</x>
+        <y>540</y>
+        <width>171</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(70, 255, 255);
+background-color: rgb(60, 63, 65);</string>
+      </property>
+      <property name="text">
+       <string>2022 © CPS Test</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6text_2page">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>410</y>
+        <width>941</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(150, 150, 150);</string>
+      </property>
+      <property name="text">
+       <string>Ваш cps будет будет известен сразу после окончания таймера.</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_stop_2page">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>220</y>
+        <width>361</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>48</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgb(60, 63, 65);
+	color: rgb(70, 255, 255);
+border-radius: 15px;              
+border: 3px solid rgb(216, 35, 38);
+}
+QPushButton:hover {
+background-color: rgb(216, 35, 38);
+border: 3px solid rgb(60, 63, 65);
+}
+QPushButton:pressed {
+    background-color:  rgb(226, 36, 39);
+}</string>
+      </property>
+      <property name="text">
+       <string>Сброс</string>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="lcdNumber_2page">
+      <property name="geometry">
+       <rect>
+        <x>780</x>
+        <y>160</y>
+        <width>81</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">    border: none;
+    outline: none;
+color: rgb(70, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="lcdNumber_time1_page_2">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>160</y>
+        <width>81</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">    border: none;
+    outline: none;
+color: rgb(70, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4text_2page">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>160</y>
+        <width>101</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(150, 150, 150);</string>
+      </property>
+      <property name="text">
+       <string>Время:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7text_2page">
+      <property name="geometry">
+       <rect>
+        <x>705</x>
+        <y>165</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(150, 150, 150);</string>
+      </property>
+      <property name="text">
+       <string>Клики:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_text_2page">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>113</y>
+        <width>951</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(150, 150, 150);</string>
+      </property>
+      <property name="text">
+       <string>Кнопка &quot;Старт&quot; : Первый клик - лкм, остальные клики - пробел.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5text_2page">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>6</y>
+        <width>371</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>48</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(70, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Кпс пробела</string>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="lcdNumber2_2page">
+      <property name="geometry">
+       <rect>
+        <x>980</x>
+        <y>410</y>
+        <width>101</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+color: rgb(70, 255, 255);
+background-color: rgb(43, 43, 43);</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_hide">
+      <property name="geometry">
+       <rect>
+        <x>990</x>
+        <y>120</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    border: none;
+    outline: none;
+   color: rgb(43, 43, 43);
+}
+QPushButton:pressed {
+    background-color: rgb(43, 43, 43);
+    color: rgb(150, 150, 150);
+}
+</string>
+      </property>
+      <property name="text">
+       <string>🤪</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3count">
+     <widget class="QLabel" name="label_2text_3page">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>10</y>
+        <width>471</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>48</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(70, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Счётчик кликов</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_1text_3page">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>75</y>
+        <width>1141</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(150, 150, 150);</string>
+      </property>
+      <property name="text">
+       <string>Хотите что-нибудь посчитать? Воспользуйтесь простым счетчиком кликов 👇</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_plus_3page">
+      <property name="geometry">
+       <rect>
+        <x>245</x>
+        <y>210</y>
+        <width>401</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>48</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgb(60, 63, 65);
+	color: rgb(70, 255, 255);
+border-radius: 15px;              
+border: 3px solid rgb(45, 45, 90)
+}
+QPushButton:hover {
+background-color: rgb(45, 45, 90);
+border: 3px solid rgb(60, 63, 65);
+}
+QPushButton:pressed {
+    background-color:  rgb(47, 47, 94);
+}</string>
+      </property>
+      <property name="text">
+       <string>+</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_minus_3page">
+      <property name="geometry">
+       <rect>
+        <x>695</x>
+        <y>210</y>
+        <width>401</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>48</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgb(60, 63, 65);
+	color: rgb(70, 255, 255);
+border-radius: 15px;              
+border: 3px solid rgb(45, 45, 90)
+}
+QPushButton:hover {
+background-color: rgb(45, 45, 90);
+border: 3px solid rgb(60, 63, 65);
+}
+QPushButton:pressed {
+    background-color:  rgb(47, 47, 94);
+}</string>
+      </property>
+      <property name="text">
+       <string>-</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_stop_3page">
+      <property name="geometry">
+       <rect>
+        <x>565</x>
+        <y>380</y>
+        <width>220</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>48</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+background-color: rgb(60, 63, 65);
+	color: rgb(70, 255, 255);
+border-radius: 15px;              
+border: 3px solid rgb(216, 35, 38);
+}
+QPushButton:hover {
+background-color: rgb(216, 35, 38);
+border: 3px solid rgb(60, 63, 65);
+}
+QPushButton:pressed {
+    background-color:  rgb(226, 36, 39);
+}</string>
+      </property>
+      <property name="text">
+       <string>Сброс</string>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="lcdNumber_3page">
+      <property name="geometry">
+       <rect>
+        <x>245</x>
+        <y>130</y>
+        <width>851</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(60, 63, 65);
+color: rgb(70, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_decor2_3page">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>505</y>
+        <width>1360</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(60, 63, 65);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_decor3_3page">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>505</y>
+        <width>1360</width>
+        <height>10</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(45, 45, 90);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_text8_3page">
+      <property name="geometry">
+       <rect>
+        <x>607</x>
+        <y>540</y>
+        <width>171</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(70, 255, 255);
+background-color: rgb(60, 63, 65);</string>
+      </property>
+      <property name="text">
+       <string>2022 © CPS Test</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_4programm">
+     <widget class="QLabel" name="label_1text_4page">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>80</y>
+        <width>1311</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(150, 150, 150);</string>
+      </property>
+      <property name="text">
+       <string>Этa программа была создана для точного измерения скорости клика. Обычно скорость</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4text_4page">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>10</y>
+        <width>381</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>48</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(70, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>О программе</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5text_4page">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>130</y>
+        <width>1311</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(150, 150, 150);</string>
+      </property>
+      <property name="text">
+       <string>измеряется в КПС (от англ. CPS - clicks per second). Число КПС получают путем деления</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6text_4page">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>170</y>
+        <width>1271</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(150, 150, 150);</string>
+      </property>
+      <property name="text">
+       <string>количества кликов на время. Чаще всего такие программы используются геймерами.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7text_4page">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>215</y>
+        <width>951</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>48</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(70, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Какой КПС считается хорошим?</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8text_4page">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>280</y>
+        <width>1281</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(150, 150, 150);</string>
+      </property>
+      <property name="text">
+       <string>Большинство игроков могут кликать со скорость 5-7 КПС на протяжении 10-60 секунд </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9text_4page">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>320</y>
+        <width>751</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(150, 150, 150);</string>
+      </property>
+      <property name="text">
+       <string>без применения каких-либо особых техник клика.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10text_4page">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>360</y>
+        <width>1171</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(150, 150, 150);</string>
+      </property>
+      <property name="text">
+       <string>=&gt; 7-8 можно считать хорошим результатом, он достигается довольно просто.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11text_4page">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>405</y>
+        <width>1321</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(150, 150, 150);</string>
+      </property>
+      <property name="text">
+       <string>=&gt; 9 и больше - это очень хороший результат, его трудно достичь обычным кликаньем,</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12text_4page">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>445</y>
+        <width>641</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(150, 150, 150);</string>
+      </property>
+      <property name="text">
+       <string>для этого требуются специальные навыки.</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_decor2_4page">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>505</y>
+        <width>1360</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(60, 63, 65);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_decor3_4page">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>505</y>
+        <width>1360</width>
+        <height>10</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(45, 45, 90);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_text8_4page">
+      <property name="geometry">
+       <rect>
+        <x>607</x>
+        <y>540</y>
+        <width>171</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(70, 255, 255);
+background-color: rgb(60, 63, 65);</string>
+      </property>
+      <property name="text">
+       <string>2022 © CPS Test</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
